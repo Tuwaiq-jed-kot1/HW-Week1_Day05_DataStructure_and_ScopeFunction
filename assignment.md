@@ -5,7 +5,7 @@ The Kotlin assignment has three components
 - Practice with Lists and Sets.
 - Practice with Maps.
 
-> Note: You must save your solution as `solution_part1.kt` for Part I, `solution_part2.kt` for Part II, and `solution_part2.kt` for Part I.
+> Note: You must save your solution as `solution_part1.kt` for Part I, `solution_part2.kt` for Part II, and `solution_part3.kt` for Part III.
 
 ## Part I - with Scope Functions.
 ---
