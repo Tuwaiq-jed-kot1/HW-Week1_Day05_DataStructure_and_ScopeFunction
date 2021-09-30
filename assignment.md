@@ -21,6 +21,13 @@ The Kotlin assignment has three components
 
 ## Part III - Practice with Maps.
 ---
-- Write an asnwer to this question: What are the cases that I need to use the map for??
+- Write an asnwer to this question: What are the cases that I need to use the map for?? 
+- ANSWER: To know the directions sense that every street at the city have a different name so, we can arrive to our destination easily just like the map idea at Kotlin. 
+
 - What is the difference between immutable and read only variables?
+- ANSWER: ReadOnlyDictionary can be initialized once by a constructor, so you can't add or remove items from it. It's useful if you want to ensure that 
+  it won't be modified while it's sent across multiple layers of your application.
+  But, ImmutableDictionary has methods to modify it like Add or Remove, so they will create a new dictionary and return that 
+  the original one remains unchanged and the copy of the new immutable dictionary is returned.
+
 - Create a map of 20 elements of strings and doubles
