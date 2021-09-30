@@ -16,8 +16,8 @@ The Kotlin assignment has three components
 
 fun main(){
 ###//          --->>>Create a working exmaple withing 'Let'<<<---
-###val x = listOf(1,2,3).last().let { it * it }
-###println(x)
+val x = listOf(1,2,3).last().let { it * it }
+println(x)
 
 ###    //          --->>>Create a working exmaple withing 'Run' (Optional to do = Bonus!!)<<<---
     val r = listOf(1,2,3).last().run { 5 }
@@ -42,12 +42,12 @@ fun main() {
 ###//          --->>>Create a list and access it and print it,
 ###//          then update or add elements to it<<<---
 
-####val lis = mutableListOf(1,2,3)
-####println(lis[1])
-####lis.add(1)
-###println(lis)
-    //          --->>>Create a list and access out of its bounds,
-    //          then manage the array errors safety with 3 different ways<<<---
+val lis = mutableListOf(1,2,3)
+println(lis[1])
+lis.add(1)
+println(lis)
+//          --->>>Create a list and access out of its bounds,
+//          then manage the array errors safety with 3 different ways<<<---
 ###    //  >>>the first Exception<<<
     val lis2 = mutableListOf(1,2,3)
     println(lis2.getOrElse(4){
@@ -68,8 +68,8 @@ fun main() {
         println("the error is ${e.message}")
     }
 
-###    //          --->>>Create a list then add repetitive and unique elements to it, then convert it to set,
-###    //          then add new elements to it and print the set values<<<---
+       //          --->>>Create a list then add repetitive and unique elements to it, then convert it to set,
+       //          then add new elements to it and print the set values<<<---
     val lis5 = mutableListOf(1,2,3)
     println(lis5)
     lis5.add(1)
@@ -90,14 +90,14 @@ fun main() {
 - Create a map of 20 elements of strings and doubles
 - ----------------------------------------------------------
 ###
-###//          --->>>Write an asnwer to this question:
-###//          What are the cases that I need to use the map for??<<<---
+    //          --->>>Write an asnwer to this question:
+    //          What are the cases that I need to use the map for??<<<---
 ###//## the answer is --> if we have a data and a list, and we need to use it
 ###// into one collection we can do it with map
 
-###    //          --->>>What is the difference between immutable and read only variables?<<<---
+    //          --->>>What is the difference between immutable and read only variables?<<<---
 ###    //## the answer is --> val name = ""
-###    // Immutable is an object(name)  & read only it is a keyword(val) 
+###    // Immutable is an object(name)  & read only it is a keyword(val)
 
     //          --->>>Create a map of 20 elements of strings and doubles<<<---
     fun main() {
