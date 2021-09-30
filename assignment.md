@@ -10,8 +10,8 @@ The Kotlin assignment has three components
 ## Part I - with Scope Functions.
 ---
 - Create a working exmaple withing 'Let'
-- Create a working exmaple withing 'Run'
-- Create a working exmaple withing 'Also'
+- Create a working exmaple withing 'Run'  (Optional to do = Bonus!!)
+- Create a working exmaple withing 'Also'  (Optional to do = Bonus!!)
 
 ## Part II - Practice with Lists and Sets.
 ---
