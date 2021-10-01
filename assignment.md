@@ -22,5 +22,10 @@ The Kotlin assignment has three components
 ## Part III - Practice with Maps.
 ---
 - Write an asnwer to this question: What are the cases that I need to use the map for??
+- In map we can declare the keys and values to be any type; there are no restrictions
+- So, need to use the map for example:When I want to register the names of university students with their university number
 - What is the difference between immutable and read only variables?
+- variables defined with var are mutable(Read and Write)
+- variables defined with val are immutable(Read only)
+- value of mutable variables can be changed at anytime, while you can not change value of immutable variables.
 - Create a map of 20 elements of strings and doubles
