@@ -21,6 +21,29 @@ The Kotlin assignment has three components
 
 ## Part III - Practice with Maps.
 ---
-- Write an asnwer to this question: What are the cases that I need to use the map for??
-- What is the difference between immutable and read only variables?
-- Create a map of 20 elements of strings and doubles
+##- Write an asnwer to this question: What are the cases that I need to use the map for??
+
+
+map is a collection which contains pairs of objects. Map holds the data in the form of pairs which consists of a key and a value. Map keys are unique and the map holds only one value for each key. Kotlin distinguishes between immutable and mutable maps
+
+case for use map :
+
+if data consists of a key and a value.
+
+if  return a set of all key/value pairs in the map Using keys properties.
+
+if useing pairs of objects
+
+
+
+##- What is the difference between immutable and read only variables?
+
+
+An immutable object is one that cannot be changed, once created.
+read only is set on the reference to an object. Immutability is a property of the object itself
+
+var is used for setter (value will change).
+
+val is used for getter (read-only, value won't change)
+
+##- Create a map of 20 elements of strings and doubles
