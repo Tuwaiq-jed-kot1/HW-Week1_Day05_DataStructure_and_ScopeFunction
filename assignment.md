@@ -22,5 +22,13 @@ The Kotlin assignment has three components
 ## Part III - Practice with Maps.
 ---
 - Write an asnwer to this question: What are the cases that I need to use the map for??
+- 
+since map contains the data as a pair (key and value) and the key must be unique
+then we can use it with data that have a unique identifier. 
+such as citizen ids and their name - serial number and the product.
+**********
 - What is the difference between immutable and read only variables?
+  immutable cannot be modified after creation
+  read-only we can't reassign new value but we can alter the value (val list > list.add)
+
 - Create a map of 20 elements of strings and doubles
