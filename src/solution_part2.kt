@@ -9,6 +9,7 @@ fun main(){
     stringList.add(3,"Hanan")
     stringList.add("Eman")
     println(stringList)
+    //---------------------------------------------------------------------
 
     //Create a list and access out of its bounds, then manage the array errors safety with 3 different ways
     //1st Exception
@@ -38,6 +39,7 @@ fun main(){
     else{
         println("The name on the list is: ${elements[index]}")
     }
+    //---------------------------------------------------------------------
 
     //Create a list then add repetitive and unique elements to it, then convert it to set,
     //then add new elements to it and print the set values
@@ -51,6 +53,6 @@ fun main(){
 
 
 
-//---------------------------------------------------------------------
+
 
 }

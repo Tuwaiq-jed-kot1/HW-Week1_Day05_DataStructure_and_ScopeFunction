@@ -14,6 +14,7 @@ fun main(){
     /*Answer:An immutable object is one that cannot be changed, once created.
     But a read only variables' means that the reference cannot be changed,
     once set and that it can only be set during object construction.*/
+    //-------------------------------------------------------------
 
     //Part3-Q3
 
@@ -40,6 +41,6 @@ fun main(){
         20 to 9.99,)
     println(map1.values)
 
-//-------------------------------------------------------------
+
 
 }
