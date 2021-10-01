@@ -21,6 +21,12 @@ The Kotlin assignment has three components
 
 ## Part III - Practice with Maps.
 ---
-- Write an asnwer to this question: What are the cases that I need to use the map for??
+- Write an answer to this question: What are the cases that I need to use the map for??
+- Answer: There are many cases, like: our national IDs' mapped to our names, our emails/numbers mapped to our usernames or a fridge filled with items/fruits mapped to number of instances.
+- 
 - What is the difference between immutable and read only variables?
+- Answer: An "immutable" object is one that cannot be changed once created. If you look at the string manipulation routines you can see that all of them return a new, modified, string and leaves the original string unchanged, which means no one else will unexpectedly change it under supervision.
+- whereas, "read-only" means the reference can't be changed, once set and that it can only be set during object construction.
+- in short, we can rephrase: readonly is set on the reference to an object. Immutability is a property of the object itself.
+- 
 - Create a map of 20 elements of strings and doubles
