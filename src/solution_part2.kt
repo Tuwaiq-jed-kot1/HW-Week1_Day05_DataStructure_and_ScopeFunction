@@ -15,7 +15,7 @@
         println("")
         println("Second element before updating: "+mutableL[1])
         mutableL[1] = mutableL.get(1).uppercase()
-        println("after performing \"uppercase()\": "+mutableL[1])
+        println("after  performing \"uppercase()\": "+mutableL[1])
 
         //adding an element:
         mutableL.add(2,"Abdullah")
