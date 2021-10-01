@@ -10,9 +10,12 @@ Information students in school
 
 What is the difference between immutable and read only variables?
 //_______??
-Mutable means that the variable can be reassigned to a different value after initial assignment.
-Read-only means that the variable cannot be reassigned once initialized.
-
+Mutable: means that the variable can be reassigned to a different value after initial assignment.
+Read-only: means that the variable cannot be reassigned once initialized.
+Immutable: is an object/variable whose state cannot be modified after it is created;
+ that’s not true with val fields: as stated in the Kotlin Reference
+ val is intended to define read-only
+, in other words “values”, while var is used for mutable variables.
 
 
 
