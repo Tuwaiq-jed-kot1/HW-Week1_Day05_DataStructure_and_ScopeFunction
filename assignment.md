@@ -19,7 +19,7 @@ The Kotlin assignment has three components
 - Create a list and access out of its bounds, then manage the array errors safety with 3 different ways
 - Create a list then add repetitive and unique elements to it, then convert it to set, then add new elements to it and print the set values
 
-## Part III - Practice with Maps.
+## Part III - Practice with Maps. 
 ---
 - Write an asnwer to this question: What are the cases that I need to use the map for??
 - What is the difference between immutable and read only variables?
