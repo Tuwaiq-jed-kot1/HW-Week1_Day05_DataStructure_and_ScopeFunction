@@ -18,19 +18,16 @@ fun main(){
     val myMap = mutableMapOf<Double,String>()
 
     var n = 1.0
+    val abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     for (i in 0 until 20){
         numbers.add(n)
+        strings.add(abc.substring(i,i+1))
         n++
     }
     println(numbers)
-
-    val abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    for (i in 0 until 20){
-        strings.add(abc.substring(i,i+1))
-    }
     println(strings)
 
-
+    
     for (i in numbers.indices) {
         myMap.put(numbers.get(i), strings.get(i))
     }
