@@ -21,4 +21,4 @@ Immutable: is an object/variable whose state cannot be modified after it is crea
 
 Create a map of 20 elements of strings and doubles
 //_______??
-    var map = HashMap<String,double >(20)
+    var map = HashMap<String,Double >(20)
